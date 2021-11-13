@@ -4,7 +4,7 @@ from keras.preprocessing.image import load_img,img_to_array
 import numpy as np
 from keras.models import load_model
 
-model = load_model('new_model_vgg_16.h5',compile=False)
+model = load_model('my_model_dr_256.hdf5',compile=False)
 lab = {0: 'No DR',1:"Mild",2:"Moderate",3:"Severe",4:"Proliferative DR"}
 #0 - No DR
 # 1 - Mild
@@ -13,7 +13,7 @@ lab = {0: 'No DR',1:"Mild",2:"Moderate",3:"Severe",4:"Proliferative DR"}
 # 4 - Proliferative DR
 
 def processed_img(img_path):
-    img=load_img(img_path,target_size=(224,224,3)) #256,256,3 for  my-model-dr-256
+    img=load_img(img_path,target_size=(256,256,3)) #256,256,3 for  my-model-dr-256
     img=img_to_array(img)
     img=img/255
     img=np.expand_dims(img,[0])
