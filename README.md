@@ -5,3 +5,15 @@ https://colab.research.google.com/drive/1QYEtLYvxdR__BskiTzbdZTuQGb5119-w?usp=sh
 
 ## Dataset Link
 https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid
+
+## Streamlit (application link)
+https://share.streamlit.io/karthikeya-t/diabetic-retinopathy/main/main.py
+
+## Diabetic Retinopathy Grading 
+ 0 - No DR
+ 1 - Mild
+ 2 - Moderate
+ 3 - Severe
+ 4 - Proliferative DR
+ 
+ 
