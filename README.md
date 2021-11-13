@@ -9,6 +9,8 @@ https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-
 ## Streamlit (application link)
 https://share.streamlit.io/karthikeya-t/diabetic-retinopathy/main/main.py
 
+![] (app_img.PNG)
+
 ## Diabetic Retinopathy Grading 
  0 - No DR
  1 - Mild
